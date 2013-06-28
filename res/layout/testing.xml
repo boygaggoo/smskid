@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1" >
+        <TableRow>
+            <TextView android:text="Phone Number" android:padding="3dip" android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/phonenumberSettings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="SMS Message" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/editTextSMS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Interval" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/intervalset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Timeout" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/timeoutset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="User ID" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/userid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Password" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="From" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="To" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Subject" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/subject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Body" android:padding="3dip"  android:layout_marginRight="20dp" android:textStyle="bold"/>
+            <TextView android:id="@+id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </TableRow>
+        
+        <TableRow>
+          <Button
+           android:id="@+id/start_test"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Test Shortcode" 
+     android:textColor="#FFFFFF"
+     android:layout_marginTop="20dp" />
+                    <Button
+                        android:id="@+id/cancel_test"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+          android:textColor="#FFFFFF"
+     android:text="Cancel Test" 
+     android:layout_marginTop="20dp"/>
+        </TableRow>
+    </TableLayout>
+    
+</ScrollView>
